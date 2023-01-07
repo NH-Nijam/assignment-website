@@ -1,5 +1,171 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
 
+/* header section */
+.header {
+    background-image: url("images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 700px;
+}
+
+.header-content {
+    display: block;
+    text-align: right;
+    width: 525px;
+    height: 228px;
+    float: right;
+    padding-right: 120px;
+    padding-top: 160px;
+}
+
+.header-title {
+    font-weight: 700;
+    font-size: 65px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.header-subtitle {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    padding-bottom: 32px;
+}
+
+.btn-color {
+    width: 160px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    border: 0;
+    border-radius: 5px;
+
+}
+
+/* main section */
+.container {
+    width: 1072px;
+    margin: 131px auto;
+    border: 1px solid red;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li:before {
+    content: '✓';
+    color: green;
+    width: 24px;
+    height: 24px;
+}
+
+.content-section {
+    display: flex;
+}
+
+.row {
+    width: 416px;
+    height: 392px;
+    align-items: center;
+    text-align: left;
+    margin-top: 200px;
+    margin-left: 87px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 40px;
+    width: 288px;
+    height: 94px;
+    margin-bottom: 16px;
+}
+
+.description {
+    width: 416px;
+    height: 104px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+}
+
+/* -- icon -section  -- */
+.my-plans {
+    width: 179px;
+    height: 47px;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 0 auto;
+}
+
+.plans-container {
+    margin-top: 50px;
+    align-items: center;
+
+
+}
+
+.plans-container {
+    width: 1072px;
+    height: 202.96px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 50px auto 0;
+
+}
+
+/* -- call now section -- */
+.call-now {
+    width: 1072px;
+    height: 300px;
+    margin: 0 auto;
+    background: linear-gradient(50deg, #005FAC 10%, rgba(0, 95, 172, 0) 100%), url("images/watch.png");
+    border-radius: 8px;
+}
+
+.call-content {
+    width: 459px;
+    height: 182px;
+    padding-top: 59px;
+    padding-left: 64px;
+    padding-bottom: 59px;
+}
+
+.call-content h3 {
+    font-weight: 700;
+    font-size: 40px;
+}
+
+/* footer section-style */
+.footer {
+    width: 100%;
+    height: 500px;
+    background: #151414;
+    color: #fff;
+}
+
+.footer-content {
+    width: 1072px;
+    margin: 130px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 330px;
+    padding: 130px 0;
+}
+
+.footer-left {
+    width: 485px;
+    height: 317px;
+}
+
+.footer-right {
+    width: 325px;
+    height: 204px;
 }
