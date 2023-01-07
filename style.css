@@ -75,7 +75,7 @@ ul li:before {
     height: 392px;
     align-items: center;
     text-align: left;
-    margin-top: 200px;
+    margin-top: 300px;
     margin-left: 87px;
 }
 
@@ -146,7 +146,7 @@ ul li:before {
 /* footer section-style */
 .footer {
     width: 100%;
-    height: 500px;
+    height: 577px;
     background: #151414;
     color: #fff;
 }
@@ -156,8 +156,39 @@ ul li:before {
     margin: 130px auto;
     display: flex;
     justify-content: space-between;
-    gap: 330px;
     padding: 130px 0;
+}
+
+.footer-title {
+    width: 148px;
+    height: 53px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+    margin-bottom: 16px;
+}
+
+.footer-sub-title {
+    width: 485px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+
+.footer-description {
+    width: 184px;
+    height: 26px;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.footer-icon {
+    width: 175px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .footer-left {
@@ -168,4 +199,45 @@ ul li:before {
 .footer-right {
     width: 325px;
     height: 204px;
+}
+
+.footer-right-title {
+    width: 123px;
+    height: 29px;
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.footer-right input {
+    background: transparent;
+    width: 325px;
+    height: 64px;
+    border: 2px solid #fff;
+    margin-top: 31px;
+    margin-bottom: 16px;
+    color: #fff;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.footer-right input::placeholder {
+    width: 146px;
+    height: 21px;
+    color: #F3F3F3;
+
+}
+
+.footer-btn {
+    width: 170.11px;
+    height: 64px;
+    background: #005FAC;
+    border-radius: 8px;
+    border: 0;
+    padding: 20px 36px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
 }
