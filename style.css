@@ -52,7 +52,6 @@
 .container {
     width: 1072px;
     margin: 131px auto;
-    border: 1px solid red;
 }
 
 ul {
@@ -97,7 +96,7 @@ ul li:before {
 
 /* -- icon -section  -- */
 .my-plans {
-    width: 179px;
+    width: 250px;
     height: 47px;
     font-weight: 700;
     font-size: 40px;
@@ -240,4 +239,9 @@ ul li:before {
     font-weight: 600;
     font-size: 20px;
     color: #FFFFFF;
+}
+/* spacial section */
+.plans-chil img{
+    width: 120px;
+    height: 120px;
 }
